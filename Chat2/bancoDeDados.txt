@@ -1,0 +1,11 @@
+Criar um banco de dados chamado 'chat' e depois criar as seguintes tabelas:
+adms:
+CREATE TABLE `chat`.`adms` ( `email` VARCHAR(255) NOT NULL , `id` INT NOT NULL AUTO_INCREMENT , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+ban:
+CREATE TABLE `chat`.`ban` ( `email` VARCHAR(255) NOT NULL , `motivo` VARCHAR(600) NOT NULL , `id` INT NOT NULL AUTO_INCREMENT , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+duvidas:
+CREATE TABLE `chat`.`duvidas` ( `duvida` VARCHAR(600) NOT NULL , `resposta` VARCHAR(600) NOT NULL , `id` INT NOT NULL AUTO_INCREMENT , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+mensagens:
+CREATE TABLE `chat`.`mensagens` ( `nick` VARCHAR(255) NOT NULL , `mensagem` VARCHAR(600) NOT NULL , `ip` VARCHAR(255) NOT NULL , `foto` VARCHAR(255) NOT NULL , `id` INT NOT NULL AUTO_INCREMENT , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+usuarios:
+CREATE TABLE `chat`.`usuarios` ( `nome` VARCHAR(255) NOT NULL , `email` VARCHAR(255) NOT NULL , `senha` VARCHAR(255) NOT NULL , `foto` VARCHAR(255) NOT NULL , `id` INT NOT NULL AUTO_INCREMENT , PRIMARY KEY (`id`)) ENGINE = InnoDB;

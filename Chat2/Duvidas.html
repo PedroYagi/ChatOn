@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>ChatOn Duvidas</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.js"></script>
+    <script type="text/javascript" src="js/duvida.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" href="imgs/logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="titulo">
+    <h1>Bem Vindo à aba de dúvidas do ChatOn</h1>
+  </div>
+    <p>Digite sua dúvida aqui:</p>
+    <form class="" action="duvida.php" method="post">
+    <textarea name="duvida" placeholder="Digite aqui a sua dúvida..." rows="8" cols="80"></textarea>
+    <p><input type="submit" value="Enviar dúvida" id="botao"></p>
+    </form>
+    <p>Dúvidas recentes:</p>
+    <p id="duvidas"></p>
+    <a href="chats.php" id="botao">Voltar</a>
+</body>

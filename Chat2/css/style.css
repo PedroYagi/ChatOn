@@ -1,0 +1,125 @@
+html {
+	background-color: rgb(253,168,168);
+	margin: 0;
+}
+
+#titulo {
+	background-color: #EE0000;
+	margin: 0;
+	padding: 12px;
+	text-align: center;
+	color: white;
+	font-family: 'Pacifico';
+	font-size: 1.7em;
+	text-shadow: +4px +4px black;
+}
+
+body {
+	margin: 0;
+}
+
+#quadro {
+	display: block;
+	background-color: white;
+	border: solid 2px #EE0000;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 1%;
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	font-family: 'Righteous', cursive;
+	font-size: 1.6em;
+	border-radius: 15px;
+	color: #CD5555;
+}
+
+#paragrafo {
+	font-family: 'Righteous', cursive;
+	text-align: center;
+	color: white;
+	font-size: 1.8em;
+	padding-top: 2%;
+}
+
+.interroga {
+	display: inline;
+	height: 0.7em;
+	width: 0.7em;
+}
+
+.perfil{
+	height: 100px;
+	width: 100px;
+	padding-left: 25px;
+	padding-top: 25px;
+}
+
+img{
+	height: 25px;
+	width: 25px;
+	padding-left: 10px;
+	padding-right: 5px;
+}
+
+#botao {
+	background-color: yellow;
+	border: solid 1.5px #CD5555;
+	width: 14%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 15px;
+	font-family: 'Righteous', cursive;
+	font-size: 0.8em;
+	color: #CD5555;
+	background-color: rgb(253,168,168);
+	margin-left: 25px;
+	margin-top: 10px;
+	display: block;
+}
+
+a{
+	text-align: center;
+	text-decoration: none;
+}
+
+#perfil{
+	background-color: #EE0000;
+
+}
+
+#perfil{
+	right: -100px;
+	transition right 100ms ease-out;
+}
+#perfil:hover{
+	right: 0;
+}
+
+form{
+	display: inline;
+}
+
+.chat{
+	float: left;
+}
+
+.adm{
+	float: right;
+}
+
+select{
+	width: 40px;
+	height: 40px;
+	background-color: yellow;
+	border: solid 1.5px #CD5555;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 15px;
+	font-family: 'Righteous', cursive;
+	font-size: 0.8em;
+	color: #CD5555;
+	background-color: rgb(253,168,168);
+	margin-left: 25px;
+	margin-top: 10px;
+}
